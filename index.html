@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zadatak</title>
     <style>
+        header {
+            padding: 20px;
+        }
+        .logo {
+            max-width: 40px;
+            width: 40px;
+            height: 40px;
+            padding-left: 0;
+            padding-top: 0;
+            float: left;
+        }
+
       footer {
         position: absolute;
         bottom: 0;
@@ -12,7 +24,7 @@
         height: 2.5rem; /*footer height*/
       }
       aside {
-        width: 30%;
+        width: 20%;
         padding-right: 10px;
         margin-right: 10px;
         float: left;
@@ -20,20 +32,18 @@
     </style>
   </head>
   <body>
-    <header>
-      <div><img src="" alt="Logo"></div>
+    <header class="header">
+      <div class="logo"><img src="" alt="Logo"></div>
       <nav>
         <a href="">Home</a> <a href=""> About</a> <a href="">Contact</a>
       </nav>
     </header>
     <hr>
     <main>
-        <aside
-        width: 20%;
-        padding-right: 10px;
-        margin-right: 10px;
-        float: left;><img src="./../algebra.poveznice/media/img/slika3.jpg" width="70px" height="60px" alt="Pic">
-    </aside> <article> <h2>Content goes here</h2>
+        <aside class="aside"><img src="./../algebra.poveznice/media/img/slika3.jpg" width="70px" height="60px" alt="Pic">
+    </aside>
+    <article> 
+        <h2>Content goes here</h2>
         <pre> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi c
             upiditate, neque labore saepe nesciunt alias blanditiis soluta consequuntur eum eaque autem 
             similique, praesentium ipsa, eligendi quibusdam tenetur minima cumque esse.
@@ -61,7 +71,7 @@
         <figure>
             <p>Footer</p>
         </figure> <br>
-        <a href="https://facebook.com">Facebook</a>        <a href="https://twitter.com">Twitter</a>
+        <p style="text-align: left;"><a href="https://facebook.com">Facebook</a></p> <p style="text-align: right;"><a href="https://twitter.com">Twitter</a></p>
     </footer>
   </body>
 </html>
